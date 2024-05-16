@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1 {
+    font-family: "Young Serif", serif;
+
+}
+
+* {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+li::marker {
+    color: hsl(332, 51%, 32%);
+  }
+
+li[class*="decimal"]::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+
+}
